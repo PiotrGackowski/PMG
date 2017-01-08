@@ -1,8 +1,8 @@
-# PMG
+# Przykładowy tekst
 
 
-# Core tests
-## CORE-001 User is able to register when he put correct data
+## Core tests
+### CORE-001 User is able to register when he put correct data
 
 *ID*: CORE-001
 
