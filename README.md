@@ -18,6 +18,7 @@
 
 
 # Show error message:
+
 + we should not show path to file on our server. Only simple error message should be shown.
 
 + we shound not provide anyting in URL param. There should be no URL params for example indicating where we wanted to put file in our file structure (path to such file)
@@ -46,16 +47,21 @@
 
 + Corrupted file - how system will handle it?
 
-Problems with system:
+# Problems with system:
+
 + what will happened if storage drive is full.
 
-Scaling:
-+ how we are handling situation that we have more than one server? How such system will be changed if we will add many more servers?
-+ how system will handle situation that files will be uploaded by many users?
+# Scaling:
 
-Publish file:
++ how we are handling situation that we have more than one server? How such system will be changed if we will add many more servers?
+
++ how system will handle situation that files will be uploaded by many users? (depends on expected traffic - 10 users or 1 000 000 users daily)
+
+# Publish file:
+
 + do we want to have files acessible for end user by path on our server? What will happened if we will have more servers / databases with files - can our system handle this?
 
-Send notification:
+# Send notification:
+
 + we should not provide info about file path
 
