@@ -9,7 +9,7 @@
 
 + what will happened if user will send very big file. Imagine file that have size in gigabytes/terabytes.
 
-+ what will happened if user will provide path to multiple files? Something like this ==>"C:\catalog\file1.html" "C:\catalog\file2.pdf" <==
++ what will happened if user will provide path to multiple files? Something like this _"C:\catalog\file1.html" "C:\catalog\file2.pdf"_
 
 + what will happened if user will start uploading from two browsers in the same file.
 
@@ -35,10 +35,15 @@
 + how we are detecting valid HTML? Is it possible to put inside some scripts? This scritps will be run on server side?  
 
 + What will happened if user manually will change extension of file from html to pdf/pdf to html?
-+ What will happened if user manually will change extension of file from html or pdf to jpg or from jpg to html or pdf.
+
++ What will happened if user manually will change extension of file from html or pdf to jpg or from jpg to html or pdf. (instead of jpg there can be other common used extension).
+
 + What will happened if user manually will change extension of file from html or pdf to exe or from exe to html or pdf.
+
 + File without content. How system will handle situation if file is empty.
+
 + If we validate by extension - what will happend if user will provide file without extension.
+
 + Corrupted file - how system will handle it?
 
 Problems with system:
