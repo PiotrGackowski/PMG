@@ -49,13 +49,13 @@
 
 # Problems with system:
 
-+ what will happened if storage drive is full.
++ what will happened if storage drive is full (depends if this is handled by this team or in this story)
 
 # Scaling:
 
-+ how we are handling situation that we have more than one server? How such system will be changed if we will add many more servers?
++ how we are handling situation that we have more than one database server? How such system sohuld be changed if we will add many more servers?
 
-+ how system will handle situation that files will be uploaded by many users? (depends on expected traffic - 10 users or 1 000 000 users daily)
++ how system will handle situation that files will be uploaded by many users? (depends on expected traffic - 10 users or 1 000 000 users daily). Imagine that there will be more than "safe" number of users. How system will react?
 
 # Publish file:
 
